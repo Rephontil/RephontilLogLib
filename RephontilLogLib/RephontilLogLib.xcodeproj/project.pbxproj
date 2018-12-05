@@ -13,6 +13,7 @@
 		25CE1AA821B777310000EC3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25CE1AA721B777310000EC3D /* Assets.xcassets */; };
 		25CE1AAB21B777310000EC3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25CE1AA921B777310000EC3D /* LaunchScreen.storyboard */; };
 		25CE1AAE21B777310000EC3D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25CE1AAD21B777310000EC3D /* main.m */; };
+		25CE1ABA21B796A10000EC3D /* Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 25CE1AB921B796A10000EC3D /* Log.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		25CE1AAA21B777310000EC3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		25CE1AAC21B777310000EC3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		25CE1AAD21B777310000EC3D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		25CE1AB821B796A10000EC3D /* Log.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Log.h; sourceTree = "<group>"; };
+		25CE1AB921B796A10000EC3D /* Log.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Log.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		25CE1A9D21B777300000EC3D /* RephontilLogLib */ = {
 			isa = PBXGroup;
 			children = (
+				25CE1AB421B7967C0000EC3D /* Classes */,
 				25CE1A9E21B777300000EC3D /* AppDelegate.h */,
 				25CE1A9F21B777300000EC3D /* AppDelegate.m */,
 				25CE1AA121B777300000EC3D /* ViewController.h */,
@@ -69,6 +73,16 @@
 				25CE1AAD21B777310000EC3D /* main.m */,
 			);
 			path = RephontilLogLib;
+			sourceTree = "<group>";
+		};
+		25CE1AB421B7967C0000EC3D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				25CE1AB821B796A10000EC3D /* Log.h */,
+				25CE1AB921B796A10000EC3D /* Log.m */,
+			);
+			name = Classes;
+			path = ../../Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				25CE1AA321B777300000EC3D /* ViewController.m in Sources */,
+				25CE1ABA21B796A10000EC3D /* Log.m in Sources */,
 				25CE1AAE21B777310000EC3D /* main.m in Sources */,
 				25CE1AA021B777300000EC3D /* AppDelegate.m in Sources */,
 			);

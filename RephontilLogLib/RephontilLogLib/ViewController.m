@@ -7,15 +7,22 @@
 //
 
 #import "ViewController.h"
+#import "Log.h"
+
 
 @interface ViewController ()
 
+    
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    [[[Log alloc] init ] logInfo];
+    
+    NSLog(@"");
     // Do any additional setup after loading the view, typically from a nib.
 }
 
