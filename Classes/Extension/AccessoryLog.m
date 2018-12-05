@@ -10,7 +10,7 @@
 
 @implementation AccessoryLog
 - (void)logInfoMore{
-    NSLog(@"%s test....",__func__);
+    NSLog(@"%s test.......",__func__);
 }
 
 @end
