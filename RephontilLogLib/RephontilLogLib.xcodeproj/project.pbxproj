@@ -14,6 +14,7 @@
 		25CE1AAB21B777310000EC3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25CE1AA921B777310000EC3D /* LaunchScreen.storyboard */; };
 		25CE1AAE21B777310000EC3D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25CE1AAD21B777310000EC3D /* main.m */; };
 		25CE1ABA21B796A10000EC3D /* Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 25CE1AB921B796A10000EC3D /* Log.m */; };
+		25CE1AE021B7A92A0000EC3D /* AccessoryLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 25CE1ADF21B7A92A0000EC3D /* AccessoryLog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		25CE1AAD21B777310000EC3D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		25CE1AB821B796A10000EC3D /* Log.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Log.h; sourceTree = "<group>"; };
 		25CE1AB921B796A10000EC3D /* Log.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Log.m; sourceTree = "<group>"; };
+		25CE1ADE21B7A92A0000EC3D /* AccessoryLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccessoryLog.h; sourceTree = "<group>"; };
+		25CE1ADF21B7A92A0000EC3D /* AccessoryLog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccessoryLog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,11 +81,21 @@
 		25CE1AB421B7967C0000EC3D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				25CE1ADD21B7A9150000EC3D /* Extension */,
 				25CE1AB821B796A10000EC3D /* Log.h */,
 				25CE1AB921B796A10000EC3D /* Log.m */,
 			);
 			name = Classes;
 			path = ../../Classes;
+			sourceTree = "<group>";
+		};
+		25CE1ADD21B7A9150000EC3D /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				25CE1ADE21B7A92A0000EC3D /* AccessoryLog.h */,
+				25CE1ADF21B7A92A0000EC3D /* AccessoryLog.m */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25CE1AE021B7A92A0000EC3D /* AccessoryLog.m in Sources */,
 				25CE1AA321B777300000EC3D /* ViewController.m in Sources */,
 				25CE1ABA21B796A10000EC3D /* Log.m in Sources */,
 				25CE1AAE21B777310000EC3D /* main.m in Sources */,

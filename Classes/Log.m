@@ -11,7 +11,8 @@
 @implementation Log
     
     - (void)logInfo{
-        NSLog(@"Say hello ..... test!!!");
+//        NSLog(@"Say hello ..... test!!!");
+        NSLog(@"我要换一种打印方式了，哈哈哈");
     }
 
 
